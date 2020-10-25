@@ -1,0 +1,24 @@
+2020-10-25 10:54:26,960  INFO [Thread-75] LdapPlugin:49 - Loading plugin cd.go.authentication.ldap version 1.0.1-49
+2020-10-25 10:54:27,131  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-view is not supported by plugin.
+2020-10-25 10:54:27,163  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-configuration is not supported by plugin.
+2020-10-25 13:33:12,936  INFO [Thread-75] LdapPlugin:49 - Loading plugin cd.go.authentication.ldap version 1.0.1-49
+2020-10-25 13:33:13,095  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-view is not supported by plugin.
+2020-10-25 13:33:13,121  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-configuration is not supported by plugin.
+2020-10-25 14:02:08,885  INFO [Thread-75] LdapPlugin:49 - Loading plugin cd.go.authentication.ldap version 1.0.1-49
+2020-10-25 14:02:09,032  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-view is not supported by plugin.
+2020-10-25 14:02:09,079  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-configuration is not supported by plugin.
+2020-10-25 14:16:55,708  INFO [Thread-75] LdapPlugin:49 - Loading plugin cd.go.authentication.ldap version 1.0.1-49
+2020-10-25 14:16:55,843  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-view is not supported by plugin.
+2020-10-25 14:16:55,864  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-configuration is not supported by plugin.
+2020-10-25 14:20:04,781  INFO [Thread-75] LdapPlugin:49 - Loading plugin cd.go.authentication.ldap version 1.0.1-49
+2020-10-25 14:20:04,927  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-view is not supported by plugin.
+2020-10-25 14:20:04,973  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-configuration is not supported by plugin.
+2020-10-25 14:29:08,230  INFO [Thread-75] LdapPlugin:49 - Loading plugin cd.go.authentication.ldap version 1.0.1-49
+2020-10-25 14:29:08,354  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-view is not supported by plugin.
+2020-10-25 14:29:08,381  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-configuration is not supported by plugin.
+2020-10-25 15:53:34,403  INFO [Thread-75] LdapPlugin:49 - Loading plugin cd.go.authentication.ldap version 1.0.1-49
+2020-10-25 15:53:34,498  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-view is not supported by plugin.
+2020-10-25 15:53:34,534  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-configuration is not supported by plugin.
+2020-10-25 15:59:50,893  INFO [Thread-75] LdapPlugin:49 - Loading plugin cd.go.authentication.ldap version 1.0.1-49
+2020-10-25 15:59:51,070  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-view is not supported by plugin.
+2020-10-25 15:59:51,114  WARN [Thread-75] LdapPlugin:59 - Request go.plugin-settings.get-configuration is not supported by plugin.

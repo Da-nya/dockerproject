@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="95">
+  <server artifactsdir="artifacts" agentAutoRegisterKey="d7559346-c81a-49da-9f6a-0348ef1b12e4" webhookSecret="5f705c33-049e-4cf2-b39b-7da5caa04d68" commandRepositoryLocation="default" serverId="16b07058-0a36-4047-ad93-667818dcec8f" />
+  <pipelines group="defaultGroup">
+    <pipeline name="123" isLocked="false">
+      <materials>
+        <p4 port="789" username="">
+          <view><![CDATA[231]]></view>
+        </p4>
+      </materials>
+      <stage name="defaultStage">
+        <jobs>
+          <job name="defaultJob">
+            <tasks>
+              <ant />
+            </tasks>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
+  </pipelines>
+</cruise>

@@ -1,0 +1,23 @@
+[Sun Oct 25 10:54:08.971372 2020] [mpm_event:notice] [pid 38:tid 139895961265984] AH00489: Apache/2.4.25 (Unix) OpenSSL/1.0.2n configured -- resuming normal operations
+[Sun Oct 25 10:54:08.971444 2020] [core:notice] [pid 38:tid 139895961265984] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun Oct 25 13:32:49.916575 2020] [core:warn] [pid 35:tid 139695401387840] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 25 13:32:49.919216 2020] [mpm_event:notice] [pid 35:tid 139695401387840] AH00489: Apache/2.4.25 (Unix) OpenSSL/1.0.2n configured -- resuming normal operations
+[Sun Oct 25 13:32:49.919248 2020] [core:notice] [pid 35:tid 139695401387840] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun Oct 25 14:01:47.209897 2020] [core:warn] [pid 35:tid 140411500111680] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 25 14:01:47.233873 2020] [mpm_event:notice] [pid 35:tid 140411500111680] AH00489: Apache/2.4.25 (Unix) OpenSSL/1.0.2n configured -- resuming normal operations
+[Sun Oct 25 14:01:47.233909 2020] [core:notice] [pid 35:tid 140411500111680] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun Oct 25 14:16:36.119065 2020] [core:warn] [pid 36:tid 139628400494400] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 25 14:16:36.121383 2020] [mpm_event:notice] [pid 36:tid 139628400494400] AH00489: Apache/2.4.25 (Unix) OpenSSL/1.0.2n configured -- resuming normal operations
+[Sun Oct 25 14:16:36.121413 2020] [core:notice] [pid 36:tid 139628400494400] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun Oct 25 14:19:45.278000 2020] [core:warn] [pid 36:tid 140136323974976] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 25 14:19:45.286728 2020] [mpm_event:notice] [pid 36:tid 140136323974976] AH00489: Apache/2.4.25 (Unix) OpenSSL/1.0.2n configured -- resuming normal operations
+[Sun Oct 25 14:19:45.286756 2020] [core:notice] [pid 36:tid 140136323974976] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun Oct 25 14:28:49.578658 2020] [core:warn] [pid 35:tid 139729833412416] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 25 14:28:49.584818 2020] [mpm_event:notice] [pid 35:tid 139729833412416] AH00489: Apache/2.4.25 (Unix) OpenSSL/1.0.2n configured -- resuming normal operations
+[Sun Oct 25 14:28:49.584843 2020] [core:notice] [pid 35:tid 139729833412416] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun Oct 25 15:53:15.445252 2020] [core:warn] [pid 37:tid 140440812267328] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 25 15:53:15.450752 2020] [mpm_event:notice] [pid 37:tid 140440812267328] AH00489: Apache/2.4.25 (Unix) OpenSSL/1.0.2n configured -- resuming normal operations
+[Sun Oct 25 15:53:15.452152 2020] [core:notice] [pid 37:tid 140440812267328] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun Oct 25 15:59:31.192478 2020] [core:warn] [pid 35:tid 139919990982464] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 25 15:59:31.199495 2020] [mpm_event:notice] [pid 35:tid 139919990982464] AH00489: Apache/2.4.25 (Unix) OpenSSL/1.0.2n configured -- resuming normal operations
+[Sun Oct 25 15:59:31.199541 2020] [core:notice] [pid 35:tid 139919990982464] AH00094: Command line: '/opt/zbox/run/apache/httpd'
