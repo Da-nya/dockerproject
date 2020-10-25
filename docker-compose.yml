@@ -1,0 +1,67 @@
+version: '3'
+
+services:
+
+  go-server:
+    image: gocd/gocd-server:v17.9.0
+    ports:
+      - "8153:8153"
+      - "8154:8154"
+    volumes:
+      - ./gocd-server:/godata
+  go-agent:
+    image: gocd/gocd-agent-ubuntu-16.04:v17.9.0
+    links:
+      - "go-server"
+    depends_on:
+      - "go-server"
+    environment:
+      AGENT_AUTO_REGISTER_KEY: '123456789abcdefgh987654321'
+      GO_SERVER_URL: https://go-server:8154/go
+
+  zentao:
+    image: idoop/zentao:latest 
+    container_name: zentao
+    # if web response code: 310 ERR_TOO_MANY_REDIRECTS, please use host mode.
+#    network_mode: "host"
+    ports:
+      - "80:80"
+      - "3306:3306"
+    # mysql root account default password is '123456'.
+    # the zentao adminstrator account is 'admin',and init password is '123456'.
+    environment:
+    # specifies Adminer account and password for web login database.
+      USER: "root"
+      PASSWD: "123456"
+      BIND_ADDRESS: "false"
+    extra_hosts:
+      - "smtp.exmail.qq.com:163.177.90.125"
+    volumes:
+      - ./ZenTao:/opt/zbox/
+    restart: always
+
+  db:
+    image: postgres:alpine
+    environment:
+      POSTGRES_PASSWORD: cookiemonster
+    volumes:
+      - db:/var/lib/postgresql/data
+
+  vcsserver:
+    image: ckulka/rhodecode-vcsserver
+    volumes:
+      - repos:/data
+
+  rhodecode:
+    image: ckulka/rhodecode-ce
+    environment:
+      RC_DB: postgresql://postgres:cookiemonster@db
+    ports:
+      - "5000:5000"
+    links:
+      - db
+      - vcsserver
+
+volumes:
+  repos:
+  db:
